@@ -6,7 +6,7 @@
       </h5>
       <div class="px-6 lg:px-8">
         <div class="grid grid-cols-2 lg:grid-cols-3 mt-5 gap-12 mx-12">
-          <div v-for="stack in stacks" class="group" :key="index">
+          <div v-for="stack in stacks" class="group" :key="stack">
             <div
               class="flex justify-center transition-all duration-100 bg-slate-100 items-center group-hover:bg-white grayscale group-hover:grayscale-0 py-6 h-52 lg:px-7 px-2 rounded-lg shadow-xl group-hover:border-[3px] group-hover:border-slate-300"
             >
@@ -38,12 +38,6 @@ const stacks = [
     image:
       "https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png",
     width: 120,
-  },
-  {
-    title: "ExpressJS",
-    image:
-      "https://upload.wikimedia.org/wikipedia/commons/6/64/Expressjs.png",
-    width: 280,
   },
   {
     title: "PHP",

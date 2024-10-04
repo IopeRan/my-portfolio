@@ -7,7 +7,7 @@
       <div
         class="grid grid-cols-1 place-items-center lg:grid-cols-2 mt-5 gap-12 mx-12"
       >
-        <div v-for="project in projects" class="group block" :key="index">
+        <div v-for="project in projects" class="group block" :key="project">
           <div
             class="transition-all lg:w-[30vw] flex-col duration-100 bg-white items-center rounded-lg"
           >
@@ -60,7 +60,7 @@ const projects = [
       "e-profile.png",
   },
   {
-    title: "Elibin",
+    title: "Elibin Development Stage",
     desc: "E-Library Information digunakan untuk mempermudah dalam mencari informasi, data dan juga mempermudah managemen sistem perpustakaan.",
     github: 'https://github.com/E-LibraryInformation/Elibin-DevStage',
     image:
@@ -72,6 +72,20 @@ const projects = [
     github: 'https://github.com/IopeRan/OsisSkendaBjm',
     image:
       "osis.png",
+  },
+  {
+    title: "Elibin Librarian Management",
+    desc: "E-Library Information digunakan untuk mempermudah dalam mencari informasi, data dan juga mempermudah managemen sistem perpustakaan.",
+    github: 'https://github.com/IopeRan/ElibinLM-fe',
+    image:
+      "Elibin2.webp",
+  },
+  {
+    title: "Jadwal & Absensi Guru",
+    desc: "Website ini digunakan untuk merancang jadwal dan melakukan absensi.",
+    github: 'https://github.com/RepublikKode/absensi-admin',
+    image:
+      "jadwal.png",
   },
 ]
 
